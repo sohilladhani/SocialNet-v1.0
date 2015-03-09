@@ -1,0 +1,162 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+
+#header-wrap
+{
+ position:fixed;
+ width:100%;
+}
+
+#image
+{
+ height: 25px;
+ background:url(gray02.jpg)repeat-x ;
+}
+
+#itext
+{
+ width:25%;
+ color:white;
+ padding:3px 0 0 20px;
+ font-size: 16px;
+}
+
+#itext:hover
+{
+ font-size:210%; 
+ color:white;
+ padding:3px 0 0 20px;
+}
+
+
+
+#container
+{
+ width: 900px;
+ margin: 0 0 0 20px; /* top right bottom left */
+ padding: 0;
+ //border-style: solid;
+}
+
+.tb7 {
+    width: 221px;
+    background: transparent url('bg.jpg') no-repeat;
+    color : #747862;
+    height:23px;
+    border:0;
+    padding:4px 8px;
+    margin-bottom:0px;
+}
+
+#container h1 
+ {
+  color:#383838; 
+  margin: 5px 0 0 0;
+  padding: 20px 0 0 0;
+  width: 60%;
+  height: 0;
+  float: left;
+  font-size: 36px;
+  
+ }
+
+#container h2 
+ {
+  color:#808080;
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 210px;
+  width: 100%;
+  height: 40px;
+  float: left;
+  font-size: 24px;
+  }
+
+#container #col1 
+ {
+  padding: 0 0 0 5%;
+  width: 65%;
+  float: left;
+ //border-style:solid;
+ }
+ #container #col1 #quote
+ { 
+ 	padding: 20% 0 0 0%;
+ 	//font-family: Geneva;
+	//font-size: 18px;
+	//color: black;
+ }
+ 
+ 
+ #container #col1 #login
+ {
+ 	padding: 20px 0 0 40px;
+ }
+ #container #col1 #buttons
+ {
+ 	padding: 0px 0px 0px 0px;
+	display:inline;
+	//border-style:solid;
+ }
+ #container #col1 #buttons #b1
+ {
+ 	padding: 0 0 0 18.5%;
+	display:inline;
+	float:left;
+	//border-style:solid;
+ }
+ #container #col1 #buttons #b2
+ {
+ 	padding: 1.7% 45% 0 0;
+	display:inline;
+	float:right;
+	//border-style:solid;
+ }
+ #container #col1 #buttons #b2 #reg
+ {
+    width:50%;
+ 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+	text-decoration: none;
+	margin: 0 0 0 0;
+	//padding: 0 0 0 1%;
+	border-style:solid;
+	border-color: #f0f0f0;
+ }
+ 
+ #container #col1 #buttons #b2 #reg:hover
+ {
+ 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #444444;
+	text-decoration: underline;
+	margin: 0 0 0 0;
+	//padding: 0 0 0 1%;
+	border-style:solid;
+	border-color: #f0f0f0;
+ }
+#container #col2
+{
+ width: 30%;
+ padding:0 0 0 10%;
+ float: right;
+ margin: 0;
+ padding: 0;
+ //border-style: solid;
+}
+
+
+h
+{
+    font-size:15px;
+    color:red;
+    font-weight:normal;
+    margin-left:30%;
+}
+
+
